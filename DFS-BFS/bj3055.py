@@ -40,7 +40,7 @@ def water_move():
             # array range check
             if nx >= 0 and nx < r and ny >= 0 and ny < c:
                 # 이동 가능 check
-                if arr[nx][ny] == '.' and visited[nx][ny]==0:
+                if arr[nx][ny] == '.':
                     arr[nx][ny]='*'
                     # 다음 턴에 사용할 위치 queue에 추가
                     water.append((nx, ny))
