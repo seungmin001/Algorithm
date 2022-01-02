@@ -3,8 +3,7 @@
 > 큰 문제를 작게 나누고, 같은 문제를 한 번만 풀어 효율적으로 해결한다.
 
 - 시간 복잡도 : O(N)
-- Memoization 기법 사용
-- 반복문(Botton-Up)이 재귀(Top-down)보다 오버헤드가 적다.
+- 반복문(Botton-Up)이 재귀(Top-down / Memoization 기법 사용)보다 오버헤드가 적다.
 
 ## 전제조건
 
